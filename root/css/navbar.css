@@ -1,0 +1,141 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+nav section a:not(.closeNav),
+.dropDownToggle {
+    padding: 7px;
+    margin: 2px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid var(--accent1-rgba-07);
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+}
+
+nav section .dropDown {
+    position: relative;
+}
+
+nav section .dropDown .dropDownContent {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+nav section .dropDown .dropDownContent a {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+/* Hover Events */
+
+nav section .closeNav {
+    margin: 15px;
+    display: flex;
+    color: black;
+    border: none;
+}
+
+nav section .closeNav>* {
+    margin: 0 auto;
+    font-size: 3rem;
+    color: black;
+}
+
+
+nav section .navItem:hover,
+.dropDownToggle:hover,
+.active {
+    cursor: pointer;
+    background-color: var(--accent1);
+    color: white;
+    font-weight: bold;
+}
+
+.dropDown:has(:hover) .dropDownContent {
+    display: flex;
+    flex-direction: column;
+}
+
+nav section .mobileLogo {
+    display: none;
+}
+
+.desktopLogo,
+.mobileLogo {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+
+    .show:not(.dropDownContent) {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+
+
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav,
+    nav section,
+    nav section .dropDown,
+    nav section .dropDown .dropDownContent {
+        display: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    nav section .mobileLogo {
+        display: block;
+        border-radius: 100%;
+    }
+
+    nav section .mobileLogo:before {
+        content: '';
+        position: absolute;
+        border-radius: 100%;
+    }
+
+    nav section .desktopLogo {
+        display: none;
+    }
+
+    nav section .dropDown .dropDownContent {
+        display: none;
+    }
+
+    nav section a,
+    nav section .dropDown .dropDownToggle,
+    nav section .dropDown .dropDownContent,
+    nav section .dropDown .dropDownContent a {
+        width: 85%;
+    }
+
+}

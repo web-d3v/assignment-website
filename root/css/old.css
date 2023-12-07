@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@317&display=swap');
+@font-face {
+    font-family: LogoFont;
+    src: url('../assets/font/Pristina.TTF');
+}
+
+:root {
+    --background: #f0f0f0;
+    --accent1: #F27405;
+    --logoFont: "Pristina";
+}
+
+body {
+    font-family: LogoFont;
+    margin: 0 auto;
+    font-family: "Dosis", sans-serif;
+}
+
+p, div {
+    font-size: 20px;
+}
+
+/* Navigation Bar Setup */
+
+#navItems {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 100vw;
+    align-content: space-evenly;
+}
+
+#navItems #navRight {
+    display: flex;
+    flex-direction: row;
+}
+
+#navItems #navLeft img {
+    padding: 5px 5px 0 5px;
+    height: 45px;
+    width: 100px;
+}
+
+#navItems #navRight a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 2px solid var(--accent1);
+}
+
+#navItems #navRight a:hover, #navItems #navRight a:hover, #navItems #navRight .active {
+    color: white;
+    background-color: var(--accent1);
+    font-weight: bold;
+}
+
+#dropdownToggle:hover #dropdownItems {
+    display: block;
+}
+
+/* Introduction */
+
+#intro {
+    display: flex;
+    flex-direction: row;
+}
+
+#introImage {
+    width: 25vw;
+}
+
+#introText {
+    width: 75vw;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 786px ) {
+    .mobileView {
+        display: flex;
+        flex-direction: row;
+    }
+    #navLeft {
+        display: flex;
+        justify-content: left;
+        margin-left: 0;
+    }
+    #introText {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    #introImage {
+        display: none;
+    }
+    
+    #navItems {
+        display: flex;
+        flex-direction: column;
+    }
+    #navItems #navRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    #navItems #navRight a {
+        width: 50%;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    #navItems #navLeft img {
+        width: 75vw;
+        height: 15vw;
+        padding: 5px 5px 0 5px;
+        margin-bottom: 5px;
+    }
+    #navItems #navLeft i {
+        padding: 10px;
+        height: 100%;
+        
+    }
+}
+
+.hidden {
+    display: none;   
+    height: 0;
+}

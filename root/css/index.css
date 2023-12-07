@@ -1,0 +1,33 @@
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.columns .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    .columns {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .columns .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 2px;
+    }
+}
