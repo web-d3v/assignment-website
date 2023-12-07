@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
 }
 .columns {
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

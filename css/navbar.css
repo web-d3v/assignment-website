@@ -2,7 +2,8 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 auto;
+    margin: 5px;
+    z-index: 10;
 }
 
 nav section {
@@ -10,7 +11,6 @@ nav section {
     flex-direction: row;
     align-items: center;
 }
-
 nav section a:not(.closeNav),
 .dropDownToggle {
     padding: 7px;
@@ -26,14 +26,18 @@ nav section a:not(.closeNav),
 
 nav section .dropDown {
     position: relative;
+    
 }
 
 nav section .dropDown .dropDownContent {
-    display: none;
+    height: 0;
+    transition: height 5s;
     flex-direction: column;
     position: absolute;
     top: 100%;
     left: 0;
+    display: none;
+    
 }
 
 nav section .dropDown .dropDownContent a {
@@ -67,10 +71,6 @@ nav section .navItem:hover,
     font-weight: bold;
 }
 
-.dropDown:has(:hover) .dropDownContent {
-    display: flex;
-    flex-direction: column;
-}
 
 nav section .mobileLogo {
     display: none;
@@ -83,6 +83,10 @@ nav section .mobileLogo {
 
 .desktopLogo {
     border-radius: 5px;
+}
+
+header {
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -120,10 +124,12 @@ nav section .mobileLogo {
         padding: 5px;
         border-bottom: 2px solid var(--accent1-rgba-07);
     }
+
     header .column .mobileLogo {
         display: block;
         border-radius: 100%;
     }
+
     header .column #mobileNavToggle {
         background: none;
         border: none;
@@ -143,9 +149,11 @@ nav section .mobileLogo {
     nav section .dropDown .dropDownContent {
         display: none;
     }
+
     nav section a:first-child:not(.closeNav) {
         margin-top: 15px;
     }
+
     nav section a:not(.closeNav),
     nav section .dropDown .dropDownToggle,
     nav section .dropDown .dropDownContent,
@@ -153,5 +161,4 @@ nav section .mobileLogo {
         margin: 3px 0;
         width: 150px;
     }
-
 }
