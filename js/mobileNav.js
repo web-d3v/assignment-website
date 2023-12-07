@@ -1,6 +1,9 @@
 const toggleButton = document.querySelector("#mobileNavToggle");
-const showElement = (element) => {
+const showElement = (element, transition, height) => {
     element.classList.toggle("show")
+    if (transition) {
+
+    }
 } 
 toggleButton.addEventListener("click", (e) => {
     const nav = document.querySelector("nav");
@@ -11,7 +14,7 @@ toggleButton.addEventListener("click", (e) => {
         const dropDownContent = dropDown.querySelector(".dropDownContent");
         showElement(dropDown);
     }
-    showElement(nav)
     showElement(navItems)
+    showElement(nav,true, navItems.offsetHeight)
 
 })

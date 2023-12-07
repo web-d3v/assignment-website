@@ -8,7 +8,7 @@ nav {
 nav section {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    align-items: center;
 }
 
 nav section a:not(.closeNav),
@@ -19,8 +19,9 @@ nav section a:not(.closeNav),
     color: black;
     border: 2px solid var(--accent1-rgba-07);
     border-radius: 5px;
-    text-align: center;
     transition: all 0.5s ease-out;
+    height: auto;
+    text-align: center;
 }
 
 nav section .dropDown {
@@ -44,15 +45,15 @@ nav section .dropDown .dropDownContent a {
 /* Hover Events */
 
 nav section .closeNav {
-    margin: 15px;
+    margin: 0;
     display: flex;
     color: black;
     border: none;
 }
 
 nav section .closeNav>* {
-    margin: 0 auto;
-    font-size: 3rem;
+    margin: 0;
+    font-size: 0rem;
     color: black;
 }
 
@@ -80,6 +81,10 @@ nav section .mobileLogo {
     cursor: pointer;
 }
 
+.desktopLogo {
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 400px) {
 
     .show:not(.dropDownContent) {
@@ -94,10 +99,6 @@ nav section .mobileLogo {
 
 
 
-    header {
-        display: flex;
-        flex-direction: row;
-    }
 
     nav,
     nav section,
@@ -110,11 +111,23 @@ nav section .mobileLogo {
         justify-content: center;
         align-items: center;
         position: relative;
+        z-index: 100;
     }
 
-    nav section .mobileLogo {
+    header {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        border-bottom: 2px solid var(--accent1-rgba-07);
+    }
+    header .column .mobileLogo {
         display: block;
         border-radius: 100%;
+    }
+    header .column #mobileNavToggle {
+        background: none;
+        border: none;
+        font-size: 2rem;
     }
 
     nav section .mobileLogo:before {
@@ -130,12 +143,15 @@ nav section .mobileLogo {
     nav section .dropDown .dropDownContent {
         display: none;
     }
-
-    nav section a,
+    nav section a:first-child:not(.closeNav) {
+        margin-top: 15px;
+    }
+    nav section a:not(.closeNav),
     nav section .dropDown .dropDownToggle,
     nav section .dropDown .dropDownContent,
     nav section .dropDown .dropDownContent a {
-        width: 85%;
+        margin: 3px 0;
+        width: 150px;
     }
 
 }

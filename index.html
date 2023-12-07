@@ -5,25 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/constants.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/constants.css">
     <!--Icons-->
     <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
     <script src="js/handlers/dropDownHandler.js"></script>
 </head>
 
 <body>
-    <header>
-        <button id="mobileNavToggle"><i class="fa-solid fa-bars"></i></button>
+    <header class="">
+        <div class="column">
+            <img class="mobileLogo" style="width:150px;" src="assets/img/Logo_just_bike.png" alt="">
+        </div>
+        <div class="column">
+            <button id="mobileNavToggle"><i class="fa-solid fa-bars"></i></button>
+        </div>
     </header>
     <!--
         Navigation
     -->
     <nav>
         <section>
-            <img class="desktopLogo" src="assets/img/logo_just_text.png" alt="">
-            <img class="mobileLogo" style="width:150px;" src="assets/img/Logo_just_bike.png" alt="">
+            <img class="desktopLogo " style="height: 50px;" src="assets/img/logo_just_text.png" alt="">
             <a class="navItem"  id="homeNavItem">Home</a>
             <div class="dropDown">
                 <div class="dropDownToggle">
