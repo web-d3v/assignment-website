@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
 }
+
 .columns {
     margin: 0 auto;
     display: flex;
@@ -11,27 +12,22 @@ body {
 .columns .column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 2px;
 }
 
 .logo {
     width: 300px;
-    height: 300px;
+    height: 50px;
 }
 
 @media screen and (max-width: 900px) {
     .columns {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
     .columns .column {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
-        margin: 2px;
     }
 }

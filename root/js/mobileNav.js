@@ -1,10 +1,11 @@
 const toggleButton = document.querySelector("#mobileNavToggle");
 const showElement = (element, transition, height) => {
+    element.style.height = window.screen.height
     element.classList.toggle("show")
-    if (transition) {
-
+    if (element.classList.contains("hidden")) {
+        element.classList.remove("hidden")
     }
-} 
+}
 toggleButton.addEventListener("click", (e) => {
     const nav = document.querySelector("nav");
     const navItems = nav.querySelector("section");
@@ -15,6 +16,11 @@ toggleButton.addEventListener("click", (e) => {
         showElement(dropDown);
     }
     showElement(navItems)
-    showElement(nav,true, navItems.offsetHeight)
-
+    showElement(nav, true, navItems.offsetHeight)
+    const closeNav = nav.querySelector(".closeNav")
+    showElement(closeNav)
+    closeNav.style.marginTop = "3rem"
+    showElement(closeNav.querySelector("i"))
+    closeNav.querySelector("i").style.fontSize = "4rem"
+    
 })
