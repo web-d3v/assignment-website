@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/constants.css">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="">
+        <div class="column">
+            <img class="mobileLogo" style="width:150px;" src="assets/img/Logo_just_bike.png" alt="">
+        </div>
+        <div class="column">
+            <button id="mobileNavToggle"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    <!--
+        Navigation
+    -->
+    <nav>
+        <section>
+            <img class="desktopLogo " style="height: 50px;" src="assets/img/logo_just_text.png" alt="">
+            <a class="navItem" id="homeNavItem">Home</a>
+            <div class="dropDown">
+                <div class="dropDownToggle">
+                    Bikes
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="dropDownContent">
+                    <a class="navItem" href="">Hardtail</a>
+                    <a class="navItem" href="">Full Suspension</a>
+                    <a class="navItem" href="">Gravel</a>
+                </div>
+            </div>
+            <a class="navItem" href="">Nutrition Advice</a>
+            <a class="navItem" href="">Skills Development</a>
+            <div class="dropDown">
+                <div class="dropDownToggle">
+                    Places to Bike
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="dropDownContent">
+                    <a class="navItem" href="">Place 1</a>
+                    <a class="navItem" href="">Place 2</a>
+                </div>
+            </div>
+            <a class="navItem" href="">Contact Us</a>
+            <a href="" class="hidden closeNav"><i class="fas fa-times "></i></a>
+        </section>
+    </nav>
+    <section class="columns">
+        <div class="column">
+            <img height="400px" width="350px" src="assets/img/vitalii-onyshchuk-RNi2AlwfjPM-unsplash.jpg"
+                alt="A red image with Rock’n’Rollin and a bike">
+        </div>
+        <div class="column" style="height: 400px;">
+            <h1>About Us</h1>
+            <p>
+                Formed recently in 2018 in the town of Mansfield, Nottinghamshire, Rock’n’Rollin Bike Club is a
+                cycling club with great enthusiasm for every part of cycling; from road to downhill cycling. We
+                started out as a small band of friends looking for adventure and fitness, meeting here and there
+                around the East Midlands, and quickly made friends in all areas of cycling, pushing each other’s
+                limits in a race to find thrills.
+
+                We strive to be the benchmark that other clubs want to emulate! After 3 years, the energy for
+                cycling in the club has continued to excel and our ethos of the club is simple – to be a home for
+                similar individuals, who want to ride their bikes and have a laugh while doing it.
+
+                As a still very active cycling club, we have lots to offer for any newcomer willing to take on the
+                cycling world. We have some of the most excellent routes in our area and use applications such as
+                Strava, AllTrails and Komoot to helps us guide anyone in the right direction they want to take with
+                their cycling.
+
+                We're not all about the newcomers, some of the experienced riders like to challenge themselves
+                mentally and physically. If you're setting up for a big event and you need the determination and
+                schedule. We could provide that with scheduled fast-paced club rides.
+
+                If any of the above is what you're looking for in a club you not be disappointed there's enough
+                experience and members in our club to cater for everyone newbie to racer.
+            </p>
+        </div>
+    </section>
+
+    <script src="js/returnToHomePage.js"></script>
+    <script src="js/mobileNav.js"></script>
+    <script src="js/dropDownHandler.js"></script>
+</body>
+
+</html>
