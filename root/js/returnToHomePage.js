@@ -4,7 +4,7 @@ const returnToIndex = (e) => {
     if (window.location.pathname.toString().startsWith("/pages")) {
         window.location = "../../" + HOME_PAGE
     } else {
-        window.location = "./" + HOME_PAGE
+        window.location = "../" + HOME_PAGE
     }
 }
 
