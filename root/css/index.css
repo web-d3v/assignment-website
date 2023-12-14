@@ -1,3 +1,8 @@
+html {
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
 body {
     margin: 0 auto;
 }
@@ -7,12 +12,15 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+
 }
 
 .columns .column {
     display: flex;
     flex-direction: column;
+    margin: 5px;
 }
+
 
 .logo {
     width: 300px;
@@ -29,5 +37,10 @@ body {
 
     .columns .column {
         justify-content: center;
+        align-items: center;
+    }
+
+    .columns .column>* {
+        text-align: center;
     }
 }
