@@ -1,7 +1,3 @@
-const desktopLogo = document.querySelector(".desktopLogo");
-const mobileLogo = document.querySelector(".mobileLogo");
-const homeNavItem = document.querySelector("#homeNavItem");
-
 const HOME_PAGE = "index.html";
 
 const returnToIndex = (e) => {
@@ -12,6 +8,6 @@ const returnToIndex = (e) => {
     }
 }
 
-desktopLogo.addEventListener("click", returnToIndex);
-mobileLogo.addEventListener("click", returnToIndex);
-homeNavItem.addEventListener("click", returnToIndex)
+document.querySelectorAll("goToHome").forEach(element => {
+    returnToIndex(element)    
+});

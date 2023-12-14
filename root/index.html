@@ -4,60 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+    <title>Rock’n’Rollin</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/constants.css">
+    <link rel="stylesheet" href="./css/globals.css">
     <!--Icons-->
     <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="">
-        <div class="column">
-            <img class="mobileLogo" style="width:150px;" src="assets/img/Logo_just_bike.png" alt="">
-        </div>
-        <div class="column">
-            <button id="mobileNavToggle"><i class="fa-solid fa-bars"></i></button>
-        </div>
+    <header>
+        <section>
+            <img class="goToHome" src="assets/img/Logo_just_bike.png" style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            <a id="mobileNavOpen"><i class="fas fa-bars"></i></a>
+        </section>
+
     </header>
     <!--
         Navigation
     -->
     <nav>
         <section>
-            <img class="desktopLogo " style="height: 50px;" src="assets/img/logo_just_text.png" alt="">
-            <a class="navItem" id="homeNavItem">Home</a>
-            <div class="dropDown">
-                <div class="dropDownToggle">
-                    Bikes
-                    <i class="fas fa-caret-down"></i>
-                </div>
-                <div class="dropDownContent">
-                    <a class="navItem" href="">Hardtail</a>
-                    <a class="navItem" href="">Full Suspension</a>
-                    <a class="navItem" href="">Gravel</a>
+            <img class="goToHome" style="height: 3rem;" src="assets/img/logo_just_text.png" alt="">
+            <a class="goToHome">Home</a>
+            <div class="dropdown">
+                <a>Bikes <i class="fas fa-caret-down"></i></a>
+                <div class="dropdownItems">
+                    <a href="">Hardtail</a>
+                    <a href="">Full Suspension</a>
+                    <a href="">Gravel</a>
                 </div>
             </div>
-            <a class="navItem" href="">Nutrition Advice</a>
-            <a class="navItem" href="">Skills Development</a>
-            <div class="dropDown">
-                <div class="dropDownToggle">
-                    Places to Bike
-                    <i class="fas fa-caret-down"></i>
-                </div>
-                <div class="dropDownContent">
-                    <a class="navItem" href="">Place 1</a>
-                    <a class="navItem" href="">Place 2</a>
+            <a href="">Nutrition Advice</a>
+            <a href="">Skills Development</a>
+            <div class="dropdown">
+                <a>Places To Bike <i class="fas fa-caret-down"></i></a>
+                <div class="dropdownItems">
+                    <a href="">Place 1</a>
+                    <a href="">Place 2</a>
                 </div>
             </div>
-            <a class="navItem" href="">Contact Us</a>
-            <a href="" class="hidden closeNav"><i class="fas fa-times "></i></a>
+            <a href="">Contact Us</a>
+            <a id="mobileNavClose"><i class="fa-solid fa-xmark"></i></a>
         </section>
     </nav>
+
     <section class="columns">
         <div class="column">
-            <img height="400px" width="350px" src="assets/img/vitalii-onyshchuk-RNi2AlwfjPM-unsplash.jpg"
+            <img height="400px" width="350px" src="assets/img/home_page_image_q4.jpg"
                 alt="A red image with Rock’n’Rollin and a bike">
         </div>
         <div class="column" style="height: 400px;">
@@ -85,12 +79,17 @@
                 If any of the above is what you're looking for in a club you not be disappointed there's enough
                 experience and members in our club to cater for everyone newbie to racer.
             </p>
+            <h3>Click a button below to learn more about different types of bikes</h3>
+            <div class="buttons">
+                <button>Hardtail</button>
+                <button>Full Suspension</button>
+                <button>Gravel</button>
+            </div>
         </div>
+    
     </section>
-
     <script src="js/returnToHomePage.js"></script>
     <script src="js/mobileNav.js"></script>
-    <script src="js/dropDownHandler.js"></script>
 </body>
 
 </html>
