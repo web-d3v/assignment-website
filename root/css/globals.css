@@ -1,8 +1,8 @@
 :root {
     --nav-background: rgba(136 145 144 / 1.5);
     --header-background: rgba(136 145 144 / 1.3);
-    --accent1: #f27405;
-    --accent1-rgba: rgba(242 116 5);
+    --accent1: rgb(242, 116, 5);
+    --accent1-rgb: rgb(242, 116, 5);
     --accent1-rgba-07: rgba(242 116 5 / 0.7);
 }
 body {
