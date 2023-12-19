@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-</head>
-<body>
+    <title>Contact Us - Rock'n'Rollin</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/globals.css">
+    <link rel="stylesheet" href="../css/contactUs.css">
     
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.ico">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section>
+            <img class="goToHome" src="../assets/img/Logo_just_bike.png"
+                style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            <a id="mobileNavOpen"><i class="fas fa-bars"></i></a>
+        </section>
+
+    </header>
+    <!--
+        Navigation
+    -->
+    <nav>
+        <section>
+            <img class="goToHome" style="height: 3rem;" src="../assets/img/logo_just_text.png" alt="">
+            <a class="goToHome">Home</a>
+            <div class="dropdown">
+                <a>Bikes <i class="fas fa-caret-down"></i></a>
+                <div class="dropdownItems">
+                    <a href="./bikes/hardtail.html">Hardtail</a>
+                    <a href="./bikes/fullSuspension.html">Full Suspension</a>
+                    <a href="./bikes/gravel.html">Gravel</a>
+                </div>
+            </div>
+            <a href="./nutritionAdvice.html">Nutrition Advice</a>
+            <a href="./skillsDevelopment.html">Skills Development</a>
+            <div class="dropdown">
+                <a>Places To Bike <i class="fas fa-caret-down"></i></a>
+                <div class="dropdownItems">
+                    <a href="./places/place1.html">Place 1</a>
+                    <a href="./places/place2.html">Place 2</a>
+                </div>
+            </div>
+            <a class="active" href="./contactUs.html">Contact Us</a>
+            <a id="mobileNavClose"><i class="fa-solid fa-xmark"></i></a>
+        </section>
+    </nav>
+
+    <section class="cards">
+        <div class="card">
+            <h1>
+                Test
+            </h1>
+
+        </div>
+        <div class="card">
+            <h1>
+                Email
+            </h1>
+            <form>
+                <div>
+                    <label for="NameInput">Your Name</label>
+                    <input type="text" name="NameInput" id="NameInput">
+                </div>
+                <div>
+                    <label for="EmailInput">Your Email Address</label>
+                    <input type="text" name="EmailInput" id="EmailInput">
+                </div>
+                <div>
+                    <label for="PhoneInput">Your Phone Number</label>
+                    <input type="text" name="PhoneInput" id="PhoneInput">
+                </div>
+                <div>
+                    <label for="MessageInput">Your Message</label>
+                    <input type="text" name="MessageInput" id="MessageInput">
+                </div>
+                <button class="" type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="card">
+            <h1>
+                Test
+            </h1>
+        </div>
+    </section>
+
+    <script src="../js/returnToHomePage.js"></script>
+    <script src="../js/mobileNav.js"></script>
 </body>
+
 </html>

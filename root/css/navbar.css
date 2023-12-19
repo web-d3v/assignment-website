@@ -1,15 +1,18 @@
 header {
     display: none;
+    border-bottom: none;
 }
 
 nav {
     display: flex;
+    width: 100vw;
     overflow-x: hidden;
     overflow-y: hidden;
     flex-direction: row;
     align-items: center;
     background-color: var(--nav-background);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    height: 3rem;
 }
 
 nav section {
@@ -21,26 +24,48 @@ nav section {
 
 
 nav section a,
-nav section div,
-nav section div a {
+nav section .dropdown,
+nav section .dropdown a {
     color: rgb(247, 255, 250);
-    padding: 10px 10px;
-    border-radius: 5px;
+    padding: 0.625em 0.625em;
+    border-radius: 0.5em;
     text-decoration: none;
     text-align: center;
-    margin: 2px;
+    margin: 0.2em;
     transition: all 250ms;
 }
 
-
-nav section>a:hover,
-nav section .dropdown .dropdownItems a:hover {
-    border-bottom: 2px solid var(--accent1);
-    border-top: 2px solid var(--accent1);
+nav section #mobileNavClose {
+    display: none;
 }
 
-nav section div a:hover {
+nav section .dropdown .dropdownItems {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: var(--nav-background);
+    display: none;
+    position: absolute;
+    margin-inline: auto;
+    height: auto;
+    width: 15rem;
+}
+
+nav section>a:hover,
+nav section div a:hover,
+nav section .dropdown .dropdownItems a:hover,
+.active,
+nav section .dropdown:has(:hover) > a,
+header section a:hover
+{
+    background: var(--accent1-rgba-07);
+    box-shadow: 0 0 1em rgba(25, 23, 23, 0.381)
+    /*
+    border-bottom: 2px solid var(--accent1);
     border-top: 2px solid var(--accent1);
+    */
+}
+
+nav section .dropdown .dropdownItems {
+    margin-top: 0.5em;
 }
 
 nav section .dropdown a {
@@ -55,25 +80,15 @@ nav section .dropdown a:hover {
     cursor: pointer;
 }
 
-nav section .dropdown .dropdownItems {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    background-color: var(--nav-background);
-    display: none;
-    position: absolute;
-    margin-inline: auto;
-    width: 100vw;
-}
-
-nav section .dropdown:hover .dropdownItems {
+nav section .dropdown:has(:hover) .dropdownItems {
     display: flex;
     flex-direction: column;
 }
 
-@media screen and (max-width: 59.063em) {
+@media screen and (max-width: 67.5rem) {
     nav {
         display: flex;
         height: 0;
-        /* Change to flex when nav toggle clicked */
         flex-direction: column;
         flex-wrap: wrap;
         width: 100vw;
@@ -84,7 +99,7 @@ nav section .dropdown:hover .dropdownItems {
     nav section {
         overflow-x: hidden;
         overflow-y: hidden;
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -101,12 +116,17 @@ nav section .dropdown:hover .dropdownItems {
     nav section .dropdown .dropdownItems {
         position: relative;
         width: 100%;
-        margin: 1em 0;
+        margin: 0.6em 0;
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     }
 
     nav section #mobileNavClose {
+        display: block;
         font-size: 2em;
+        padding: 0.2em 0.35em;
+    }
+    nav section #mobileNavClose:hover {
+        cursor: pointer;
     }
 
     header {
@@ -117,14 +137,14 @@ nav section .dropdown:hover .dropdownItems {
         flex-direction: row;
         background-color: var(--header-background);
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-        position: static;
+        width: 100%;
+        border: none;
     }
 
     header section {
         margin: 0.5em;
-        width: 99%;
+        width: 100% !important;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
@@ -132,6 +152,12 @@ nav section .dropdown:hover .dropdownItems {
 
     header section a {
         border-radius: 5px;
+        margin-left: auto;
+        border: none;
+    }
+    header section a:hover {
+        cursor: pointer;
+
     }
 
     header section a i {

@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/globals.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.ico">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
     <!--Icons-->
     <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
 </head>
@@ -15,7 +21,8 @@
 <body>
     <header>
         <section>
-            <img class="goToHome" src="./assets/img/Logo_just_bike.png" style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            <img class="goToHome" src="./assets/img/Logo_just_bike.png"
+                style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
             <a id="mobileNavOpen"><i class="fas fa-bars"></i></a>
         </section>
 
@@ -26,35 +33,34 @@
     <nav>
         <section>
             <img class="goToHome" style="height: 3rem;" src="./assets/img/logo_just_text.png" alt="">
-            <a class="goToHome">Home</a>
+            <a class="active goToHome">Home</a>
             <div class="dropdown">
                 <a>Bikes <i class="fas fa-caret-down"></i></a>
                 <div class="dropdownItems">
-                    <a href="pages/bikes/hardtail.html">Hardtail</a>
-                    <a href="pages/bikes/fullSuspension.html">Full Suspension</a>
-                    <a href="pages/bikes/gravel.html">Gravel</a>
+                    <a href="./pages/bikes/hardtail.html">Hardtail</a>
+                    <a href="./pages/bikes/fullSuspension.html">Full Suspension</a>
+                    <a href="./pages/bikes/gravel.html">Gravel</a>
                 </div>
             </div>
-            <a href="">Nutrition Advice</a>
-            <a href="">Skills Development</a>
+            <a href="./pages/nutritionAdvice.html">Nutrition Advice</a>
+            <a href="./pages/skillsDevelopment.html">Skills Development</a>
             <div class="dropdown">
                 <a>Places To Bike <i class="fas fa-caret-down"></i></a>
                 <div class="dropdownItems">
-                    <a href="pages/places/place1.html">Place 1</a>
-                    <a href="pages/places/place2.html">Place 2</a>
+                    <a href="./pages/places/place1.html">Place 1</a>
+                    <a href="./pages/places/place2.html">Place 2</a>
                 </div>
             </div>
-            <a href="pages/contactUs.html">Contact Us</a>
+            <a href="./pages/contactUs.html">Contact Us</a>
             <a id="mobileNavClose"><i class="fa-solid fa-xmark"></i></a>
         </section>
     </nav>
 
     <section class="columns">
         <div class="column">
-            <img height="400px" width="350px" src="./assets/img/home_page_image_q4.jpg"
-                alt="A red image with Rock’n’Rollin and a bike">
+            <img height="400px" width="350px" src="./assets/img/home_page_image_q4.jpg" alt="">
         </div>
-        <div class="column" style="height: 400px;">
+        <div class="column">
             <h1>About Us</h1>
             <p>
                 Formed recently in 2018 in the town of Mansfield, Nottinghamshire, Rock’n’Rollin Bike Club is a
@@ -79,14 +85,15 @@
                 If any of the above is what you're looking for in a club you not be disappointed there's enough
                 experience and members in our club to cater for everyone newbie to racer.
             </p>
-            <h3>Click a button below to learn more about different types of bikes</h3>
+            <h2>Click a button below to learn more about different types of bikes</h2>
             <div class="buttons">
-                <button>Hardtail</button>
-                <button>Full Suspension</button>
-                <button>Gravel</button>
+                <a href="pages/bikes/hardtail.html">Hardtail</a>
+                <a href="pages/bikes/fullSuspension.html">Full Suspension</a>
+                <a href="pages/bikes/gravel.html">Gravel</a>
+
             </div>
         </div>
-    
+
     </section>
     <script src="./js/returnToHomePage.js"></script>
     <script src="./js/mobileNav.js"></script>

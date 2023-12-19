@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Place 2 - Rock'n'Rollin</title>
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/globals.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon.ico">
+
+    <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header>
+        <section>
+            <img class="goToHome" src="../../assets/img/Logo_just_bike.png"
+                style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            <a id="mobileNavOpen"><i class="fas fa-bars"></i></a>
+        </section>
+
+    </header>
+    <nav>
+        <section>
+            <img class="goToHome" style="height: 3rem;" src="../../assets/img/logo_just_text.png" alt="">
+            <a class="goToHome">Home</a>
+            <div class="dropdown">
+                <a>Bikes <i class="fas fa-caret-down"></i></a>
+                <div class="dropdownItems">
+                    <a href="pages/bikes/hardtail.html">Hardtail</a>
+                    <a href="pages/bikes/fullSuspension.html">Full Suspension</a>
+                    <a href="pages/bikes/gravel.html">Gravel</a>
+                </div>
+            </div>
+            <a href="pages/nutritionAdvice.html">Nutrition Advice</a>
+            <a href="pages/skillsDevelopment.html">Skills Development</a>
+            <div class="dropdown">
+                <a class="active">Places To Bike <i class="fas fa-caret-down"></i></a>
+                <div class="dropdownItems">
+                    <a href="../places/place1.html">Place 1</a>
+                    <a class="active" href="../places/place2.html">Place 2</a>
+                </div>
+            </div>
+            <a href="../contactUs.html">Contact Us</a>
+            <a id="mobileNavClose"><i class="fa-solid fa-xmark"></i></a>
+        </section>
+    </nav>
+    <script src="../../js/returnToHomePage.js"></script>
+    <script src="../../js/mobileNav.js"></script>
 </body>
+
 </html>
