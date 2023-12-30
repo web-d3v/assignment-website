@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+}
+
+.rows>.row {
+    background-color: var(--section-bg);
+    margin: 1rem;
+    padding: 2em;
+    box-shadow: 0 0 1em rgba(25, 23, 23, 0.381);
+    border-radius: 2rem;
+}
+
+.rows>.row>* {
+    margin: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.rows>.row>h1 {
+    padding: 0 !important;
+}
+

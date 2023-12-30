@@ -2,6 +2,11 @@
     width: 20rem;
 }
 
+.card:hover {
+    box-shadow: 0 0 1em rgb(0 0 0 / 0.122),
+        0 0 0 0.3rem var(--_shadow) !important;
+}
+
 .card:first-child,
 .card:last-child {
     width: 15rem;
@@ -11,7 +16,8 @@
     font-size: 2rem;
     font-weight: bold;
 }
-.card form  {
+
+.card form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,6 +32,10 @@
     align-items: center;
     text-align: center;
     padding: 1em;
+}
+
+.card form div label {
+    margin: 0.3em;
 }
 
 .card form div input {

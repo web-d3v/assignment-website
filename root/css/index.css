@@ -1,34 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 
-html {
-    overflow-y: scroll !important;
-    overflow-x: unset !important;
-}
 
 body {
     font-family: Arial, sans-serif;
     font-size: 1rem;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../assets/img/background_image.jpg");
+    color: white;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
     font-family: "Dosis", sans-serif;
+    
 }
 
+
 .columns {
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-direction: row;
     gap: 0.3rem;
-
+    align-items: center;
+    height: 100%;
 }
 
 .columns .column {
+    margin: 2rem;
+    padding: 2rem;
     height: 50%;
     display: flex;
     flex-direction: column;
-    margin: 5px;
-    justify-content: center;
+    align-items: center;
+    background-color: var(--section-bg);
+    border-radius: 1em;
 }
 
 .rows {
@@ -59,6 +65,10 @@ body {
     flex-direction: row-reverse;
 }
 
+.alignICenter {
+    align-items: center;
+}
+
 
 .rows .row img {
     width: 25rem;
@@ -75,13 +85,14 @@ body {
 
 .cards {
     justify-content: center;
+    gap: 2rem !important;
 }
 
 .buttons a,
 .cards .card,
 form button {
     --_shadow: var(--shadow, var(--accent1));
-    color: black;
+    color: white;
     transition: all 700ms;
     border: none;
     border-radius: 0.3em;
@@ -95,7 +106,7 @@ form button {
 }
 
 form button:hover {
-    box-shadow: 0 0 1em rgb(0 0 0 / 0.122), -0.3em -0.3em 0 0 var(--_shadow);
+    box-shadow: 0 0 1em rgb(0 0 0 / 0.122), -0.3em -0.3em var(--_shadow);
     cursor: pointer;
 
 }
@@ -119,6 +130,10 @@ form button:hover {
     --shadow: var(--accent3-rgba-07);
 }
 
+form button {
+    --shadow: rgb(154, 209, 170);
+}
+
 .buttons a:hover {
     transition: all 700ms;
     color: white;
@@ -132,7 +147,7 @@ form button:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width: 59.063rem) {
+@media screen and (max-width: 67.5rem) {
     .columns {
         display: flex;
         flex-direction: column;
@@ -162,6 +177,7 @@ form button:hover {
         text-align: center;
         width: 75%;
     }
+
     .cards {
         flex-direction: column;
         align-items: center;

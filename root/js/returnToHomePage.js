@@ -8,8 +8,6 @@ const returnToIndex = () => {
         window.location = "../" + HOME_PAGE
     } else if (bikesOrPlacesPage) {
         window.location = "../../" + HOME_PAGE
-    } else {
-        window.location = "./" + HOME_PAGE
     }
 }
 
