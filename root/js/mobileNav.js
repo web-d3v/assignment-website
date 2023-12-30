@@ -6,17 +6,18 @@ nav.style.transition = "height ease 0.55s";
 const header = document.querySelector("header");
 
 openNavButton.addEventListener("click", (e) => {
-    header.style.borderBottom = "2px solid white";
-    nav.style.height = "100vh";
+    header.classList.add("openNav")
+    nav.classList.add("openNav")
     openNavButton.classList.add("active");
 })
 
 closeNavButton.addEventListener("click", (e) => {
     openNavButton.classList.remove("active");
-    header.style.borderBottom = "none";
-    nav.style.height = "0";
+    header.classList.remove("openNav")
+    nav.classList.remove("openNav")
 })
 
+/*
 const toPX = (rem) => { return (rem * 16) }
 const toRem = (px) => { return (px / 16) }
 
@@ -40,3 +41,4 @@ window.addEventListener("resize", () => {
         }
     }
 })
+*/

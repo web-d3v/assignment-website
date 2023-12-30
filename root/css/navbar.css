@@ -13,6 +13,7 @@ nav {
     background-color: var(--nav-background);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     height: 3rem;
+    padding: 0.2rem;
 }
 
 nav section {
@@ -22,6 +23,9 @@ nav section {
     flex-direction: row;
 }
 
+nav section img {
+    height: auto;
+}
 
 nav section a,
 nav section .dropdown,
@@ -52,13 +56,12 @@ nav section .dropdown .dropdownItems {
 nav section>a:hover,
 nav section div a:hover,
 nav section .dropdown .dropdownItems a:hover,
-.active,
-nav section .dropdown:has(:hover) > a,
-header section a:hover
-{
+.active:not(#mobileNavOpen),
+nav section .dropdown:has(:hover)>a,
+header section a:hover {
     background: var(--accent1-rgba-07);
     box-shadow: 0 0 1em rgba(25, 23, 23, 0.381)
-    /*
+        /*
     border-bottom: 2px solid var(--accent1);
     border-top: 2px solid var(--accent1);
     */
@@ -125,6 +128,7 @@ nav section .dropdown:has(:hover) .dropdownItems {
         font-size: 2em;
         padding: 0.2em 0.35em;
     }
+
     nav section #mobileNavClose:hover {
         cursor: pointer;
     }
@@ -151,10 +155,13 @@ nav section .dropdown:has(:hover) .dropdownItems {
     }
 
     header section a {
+        background: none;
+        box-shadow: none;
         border-radius: 5px;
         margin-left: auto;
         border: none;
     }
+
     header section a:hover {
         cursor: pointer;
 
@@ -164,5 +171,22 @@ nav section .dropdown:has(:hover) .dropdownItems {
         margin: 5px;
         font-size: 2.5rem;
         color: white;
+    }
+
+    header section img {
+        content: url("../assets/img/Logo_just_bike.png");
+    }
+
+    .openNav:is(header) {
+        border-bottom: 2px solid white;
+    }
+
+    .openNav:is(nav) {
+        height: 100vh;
+    }
+
+    .active:is(#mobileNavOpen) {
+        background: var(--accent1-rgba-07);
+        box-shadow: 0 0 1em rgba(25, 23, 23, 0.381)
     }
 }

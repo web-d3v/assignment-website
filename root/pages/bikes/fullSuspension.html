@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/globals.css">
+    <link rel="stylesheet" href="../../css/bikePages.css">
+    <link rel="stylesheet" href="../../css/carousel.css">
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon.ico">
 
     <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
@@ -16,8 +18,7 @@
 <body>
     <header>
         <section>
-            <img class="goToHome" src="../../assets/img/Logo_just_bike.png"
-                style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            <img class="goToHome" src="" style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
             <a id="mobileNavOpen"><i class="fas fa-bars"></i></a>
         </section>
 
@@ -52,29 +53,78 @@
     </nav>
 
     <div class="rows">
-        <h1>Full Suspension Bikes</h1>
+
         <div class="row">
-            <img src="../../assets/img/Full Suspension/Vitus Sommet 29 CR.jpg" alt="">
+            <h1>Full Suspension Bikes</h1>
+        </div>
+        <div class="row">
             <div class="column">
                 <h2>An Introduction to Full Suspension Bikes</h2>
-                <p>Full suspension mountain bikes have both front and rear suspension, they can also be known as dual
-                    suspension mountain bikes.The addition of a rear shock makes these bikes more efficient and comfier
-                    to ride on difficult off-road terrain.</p>
+                <p>Full suspension bikes, also known as dual suspension or mountain bikes with rear suspension, are
+                    specialized bicycles designed to enhance off-road riding experiences. Unlike their rigid or hardtail
+                    counterparts, full suspension bikes feature a front suspension fork and a rear shock absorber,
+                    creating a system that absorbs impacts and vibrations from uneven terrain. This dual suspension
+                    system allows the wheels to move independently, providing better traction, control, and comfort on
+                    challenging trails. Full suspension bikes excel in navigating rough and technical terrains, such as
+                    rocky descents and root-laden paths, as the suspension helps maintain contact with the ground,
+                    improving rider stability and overall handling. These bikes are favored by mountain biking
+                    enthusiasts and riders seeking a more forgiving and enjoyable experience on diverse off-road trails.
+                </p>
             </div>
+            <div class="carousel">
+                <div class="carouselImages">
+                    <img class="selected" src="../../assets/img/Full Suspension/Vitus Sommet 29 CR.jpg" alt="">
+                    <img src="../../assets/img/Full Suspension/Vitus Dominer Downhill.jpg" alt="">
+                    <img src="../../assets/img/Full Suspension/Cube Stereo 150 C68 TM 29.jpg" alt="">
+                </div>
+                <div class="carouselControls">
+                    <a id="previousImage"><i class="fas fa-chevron-left"></i></a>
+                    <p>1 / 3</p>
+                    <a id="nextImage"><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+
         </div>
         <div class="row">
             <div class="column">
                 <h2>Recommended Apparel</h2>
-                <p>Full suspension mountain bikes have both front and rear suspension, they can also be known as dual
-                    suspension mountain bikes.The addition of a rear shock makes these bikes more efficient and comfier
-                    to ride on difficult off-road terrain.</p>
+                <p>When it comes to selecting apparel for full suspension bikes, riders prioritize comfort, protection,
+                    and flexibility. A well-ventilated and moisture-wicking cycling jersey is essential, as it helps
+                    regulate body temperature during intense rides. Paired with padded cycling shorts or bibs, it
+                    ensures comfort on the saddle during extended periods. Full-fingered gloves provide grip, reduce
+                    vibrations, and offer protection in case of falls. A quality helmet is non-negotiable for safety,
+                    and many riders opt for full-face helmets for additional facial protection, especially during
+                    aggressive downhill rides. Protective eyewear shields the eyes from debris, branches, and UV rays.
+                    Durable, grippy shoes with a reinforced sole are crucial for maintaining control on the pedals.
+                    Depending on the trail and weather conditions, riders might also consider a moisture-resistant and
+                    breathable jacket, as well as knee and elbow pads for extra protection. Ultimately, the right
+                    apparel for full suspension biking combines functionality, durability, and protection to enhance the
+                    overall riding experience.</p>
             </div>
-            <img src="../../assets/img/Full Suspension/Vitus Sommet 29 CR.jpg" alt="">
+            <img style="height: 350px; width: 300px;" src="../../assets/img/portrait-motorbike-rider-with-helmet.jpg"
+                alt="">
         </div>
         <div class="row">
-            <img src="../../assets/img/Full Suspension/Vitus Sommet 29 CR.jpg" alt="">
             <div class="column">
-                <h2>An Introduction to Full Suspension Bikes</h2>
+                <h2>Recommended Videos</h2>
+                <div class="row alignICenter">
+                    <p>Global Mountain Bike Network</p>
+                    <a href="https://youtu.be/WHwKB9aR_bU?si=Ke5bhbi98jXsxgGw">A guide to buying Full Suspension
+                        bikes</a>
+                </div>
+                <!--
+<iframe src="https://www.youtube.com/embed/WHwKB9aR_bU"
+                    title="Thinking Of Buying A Full Suspension MTB? Here’s What You Need To Know" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                -->
+
+                <div class="row alignICenter">
+                    <p>Global Mountain Bike Network</p>
+                    <a href="https://youtu.be/GUQ9hfXoE7w?si=O5vKVda_K4U6opw1">A guide to buying Full Suspension
+                        bikes</a>
+                </div>
                 <p>Full suspension mountain bikes have both front and rear suspension, they can also be known as dual
                     suspension mountain bikes.The addition of a rear shock makes these bikes more efficient and comfier
                     to ride on difficult off-road terrain.</p>
@@ -84,6 +134,7 @@
 
     <script src="../../js/mobileNav.js"></script>
     <script src="../../js/returnToHomePage.js"></script>
+    <script src="../../js/carousel.js"></script>
 </body>
 
 </html>
