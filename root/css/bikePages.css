@@ -1,7 +1,3 @@
-body {
-    overflow: hidden;
-}
-
 .rows>.row {
     background-color: var(--section-bg);
     margin: 1rem;
