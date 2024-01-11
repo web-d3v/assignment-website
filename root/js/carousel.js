@@ -1,45 +1,53 @@
 const carousel = document.querySelector(".carousel");
-const carouselImages = carousel.querySelectorAll(".carouselImages img");
+const carouselItems = carousel.querySelectorAll(".carouselItems > *");
 const carouselControls = carousel.querySelector(".carouselControls");
-const nextImage = carouselControls.querySelector("#nextImage");
-const previousImage = carouselControls.querySelector("#previousImage");
-const imageCounter = carouselControls.querySelector("p");
+const nextItem = carouselControls.querySelector("#nextItem");
+const previousItem = carouselControls.querySelector("#previousItem");
+const ItemCounter = carouselControls.querySelector("p");
+const ItemTitle = carousel.querySelector("#carouselItemTitle")
+var selectedItemIndex = 0;
+changeCounter(selectedItemIndex, carouselItems.length);
+changeTitle(carouselItems.item(selectedItemIndex));
 
-var selectedImageIndex = 0; // default
+function changeCounter(index, length) {
+    ItemCounter.innerHTML = `${index + 1} / ${length}`
+}
 
+function changeTitle(item) {
+    ItemTitle.innerHTML = item.getAttribute("data-title");
+}
 
-
-nextImage.addEventListener("click", () => {
-    console.log(selectedImageIndex, "NEXT")
-    const selectedImage = carouselImages.item(selectedImageIndex);
-    if (selectedImage) {
-        selectedImage.classList.remove("selected")
+nextItem.addEventListener("click", () => {
+    const selectedItem = carouselItems.item(selectedItemIndex);
+    if (selectedItem) {
+        selectedItem.classList.remove("selected")
     }
-    selectedImageIndex += 1;
-    if (selectedImageIndex >= carouselImages.length) {
-        selectedImageIndex = 0 // default, makes the carousel loop
+    selectedItemIndex += 1;
+    if (selectedItemIndex >= carouselItems.length) {
+        selectedItemIndex = 0
     }
-    const nextSelectedImage = carouselImages.item(selectedImageIndex)
-    if (nextSelectedImage) {
-        nextSelectedImage.classList.add("selected")
+    const nextSelectedItem = carouselItems.item(selectedItemIndex)
+    if (nextSelectedItem) {
+        nextSelectedItem.classList.add("selected")
     }
-    console.log(selectedImageIndex, selectedImage, nextSelectedImage, carouselImages)
-    imageCounter.innerHTML = `${selectedImageIndex + 1} / ${carouselImages.length}`
+    changeCounter(selectedItemIndex, carouselItems.length)
+    changeTitle(nextSelectedItem)
 })
-previousImage.addEventListener("click", () => {
-    console.log(selectedImageIndex, "PREVIOUS")
-    const selectedImage = carouselImages.item(selectedImageIndex);
-    if (selectedImage) {
-        selectedImage.classList.remove("selected")
+previousItem.addEventListener("click", () => {
+    const selectedItem = carouselItems.item(selectedItemIndex);
+    if (selectedItem) {
+        selectedItem.classList.remove("selected")
     }
-    selectedImageIndex -= 1;
-    if (selectedImageIndex <= 0) {
-        selectedImageIndex = carouselImages.length - 1 // default, makes the carousel loop
+    if (selectedItemIndex <= 0) {
+        selectedItemIndex = carouselItems.length - 1
+    } else {
+        selectedItemIndex -= 1
     }
-    const nextSelectedImage = carouselImages.item(selectedImageIndex)
-    if (nextSelectedImage) {
-        nextSelectedImage.classList.add("selected")
+    const nextSelectedItem = carouselItems.item(selectedItemIndex)
+    if (nextSelectedItem) {
+        nextSelectedItem.classList.add("selected")
     }
-    console.log(selectedImageIndex, selectedImage, nextSelectedImage, carouselImages)
-    imageCounter.innerHTML = `${selectedImageIndex + 1} / ${carouselImages.length}`
+    changeCounter(selectedItemIndex, carouselItems.length)
+    changeTitle(nextSelectedItem)
 })
+

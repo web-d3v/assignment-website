@@ -1,17 +1,45 @@
-.rows>.row {
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+h2 {
+    padding: 1rem;
+    border-bottom: 2px groove white;
+}
+
+p.bottomBorder {
+    padding: 1rem;
+    border-bottom: 2px groove white;
+}
+
+.rows {
+    align-content: center;
+}
+
+.rows>.row,
+.rows>.column {
     background-color: var(--section-bg);
     margin: 1rem;
     padding: 2em;
     box-shadow: 0 0 1em rgba(25, 23, 23, 0.381);
     border-radius: 2rem;
+    width: 85%;
 }
 
-.rows>.row>* {
+.rows:not(nav)>.row>*,
+.rows>.row>.column>* {
     margin: 0.5rem;
     color: rgb(255, 255, 255);
 }
 
-.rows>.row>h1 {
-    padding: 0 !important;
+.rows p {
+    /* color: wh !important; */
+    font-size: 1.3em;
 }
 
+.rows>.row>.column {
+    align-items: center;
+}

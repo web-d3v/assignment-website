@@ -9,6 +9,15 @@
     --accent3: rgb(242, 92, 5);
     --accent3-rgba-07: rgba(242, 92, 5, 0.7);
     --_shadow: var(--accent1);
-    --section-bg: rgba(136, 145, 144, 0.459);
+    --section-bg: rgba(136, 145, 144,0.71);
     --dsection-bg: rgba(136, 145, 144, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Dosis", sans-serif;
 }

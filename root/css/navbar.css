@@ -5,7 +5,6 @@ header {
 
 nav {
     display: flex;
-    width: 100vw;
     overflow-x: hidden;
     overflow-y: hidden;
     flex-direction: row;
@@ -13,6 +12,8 @@ nav {
     background-color: var(--nav-background);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     height: 3rem;
+    min-width: 100vw;
+    max-width: 100vw;
     padding: 0.2rem;
 }
 
@@ -27,9 +28,13 @@ nav section img {
     height: auto;
 }
 
-nav section a,
-nav section .dropdown,
-nav section .dropdown a {
+nav section>a>img {
+    border-radius: 0.35rem;
+}
+
+nav section a:not(:has(img)),
+nav section div.dropdown,
+nav section div.dropdown a {
     color: rgb(247, 255, 250);
     padding: 0.625em 0.625em;
     border-radius: 0.5em;
@@ -37,6 +42,7 @@ nav section .dropdown a {
     text-align: center;
     margin: 0.2em;
     transition: all 250ms;
+    font-size: 1rem;
 }
 
 nav section #mobileNavClose {
@@ -53,15 +59,14 @@ nav section .dropdown .dropdownItems {
     width: 15rem;
 }
 
-nav section>a:hover,
-nav section div a:hover,
-nav section .dropdown .dropdownItems a:hover,
-.active:not(#mobileNavOpen),
-nav section .dropdown:has(:hover)>a,
-header section a:hover {
-    background: var(--accent1-rgba-07);
-    box-shadow: 0 0 1em rgba(25, 23, 23, 0.381)
-        /*
+nav section>a:not(:has(img)):hover,
+nav section div.dropdown a:hover,
+nav section div.dropdown div.dropdownItems a:hover,
+nav section div.dropdown:has(:hover)>a,
+header section a#mobileNavOpen:hover {
+    background: var(--accent1-rgba-07) !important;
+    box-shadow: 0 0 0.6em rgba(25, 23, 23, 0.381) !important;
+    /*
     border-bottom: 2px solid var(--accent1);
     border-top: 2px solid var(--accent1);
     */
@@ -97,6 +102,7 @@ nav section .dropdown:has(:hover) .dropdownItems {
         width: 100vw;
         overflow-x: hidden;
         overflow-y: hidden;
+        transition: height ease 0.55s;
     }
 
     nav section {
@@ -112,24 +118,24 @@ nav section .dropdown:has(:hover) .dropdownItems {
         display: none;
     }
 
-    nav section .dropdown {
+    nav section div.dropdown {
         position: relative;
     }
 
-    nav section .dropdown .dropdownItems {
+    nav section div.dropdown div.dropdownItems {
         position: relative;
         width: 100%;
         margin: 0.6em 0;
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     }
 
-    nav section #mobileNavClose {
+    nav section a#mobileNavClose {
         display: block;
         font-size: 2em;
         padding: 0.2em 0.35em;
     }
 
-    nav section #mobileNavClose:hover {
+    nav section a#mobileNavClose:hover {
         cursor: pointer;
     }
 
@@ -137,12 +143,12 @@ nav section .dropdown:has(:hover) .dropdownItems {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        align-content: center;
         flex-wrap: wrap;
         flex-direction: row;
         background-color: var(--header-background);
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
         width: 100%;
-        border: none;
     }
 
     header section {
@@ -154,7 +160,7 @@ nav section .dropdown:has(:hover) .dropdownItems {
         flex-direction: row;
     }
 
-    header section a {
+    header section a#mobileNavOpen {
         background: none;
         box-shadow: none;
         border-radius: 5px;
@@ -173,19 +179,15 @@ nav section .dropdown:has(:hover) .dropdownItems {
         color: white;
     }
 
-    header section img {
-        content: url("../assets/img/Logo_just_bike.png");
-    }
-
-    .openNav:is(header) {
+    header.openNav {
         border-bottom: 2px solid white;
     }
 
-    .openNav:is(nav) {
+    nav.openNav {
         height: 100vh;
     }
 
-    .active:is(#mobileNavOpen) {
+    header section a#mobileNavOpen.active {
         background: var(--accent1-rgba-07);
         box-shadow: 0 0 1em rgba(25, 23, 23, 0.381)
     }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/globals.css">
+    <link rel="stylesheet" href="./css/layout.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -21,8 +22,10 @@
 <body>
     <header>
         <section>
-            <img class="goToHome" src="./assets/img/Logo_just_bike.png"
-                style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            <a href="index.html">
+                <img src="./assets/img/Logo/Logo_just_bike.png"
+                    style="border-radius: 300px; height: 102px; width: 99px;" alt="A white bike">
+            </a>
             <a id="mobileNavOpen"><i class="fas fa-bars"></i></a>
         </section>
 
@@ -32,8 +35,10 @@
     -->
     <nav>
         <section>
-            <img class="goToHome" style="height: 3rem;" src="./assets/img/logo_just_text.png" alt="">
-            <a class="active goToHome">Home</a>
+            <a href="index.html">
+                <img src="./assets/img/Logo/logo_just_text.png" alt="">
+            </a>
+            <a class="active">Home</a>
             <div class="dropdown">
                 <a>Bikes <i class="fas fa-caret-down"></i></a>
                 <div class="dropdownItems">
@@ -59,6 +64,11 @@
     <section class="columns">
         <div class="column">
             <h1>About Us</h1>
+        </div>
+        <div class="column">
+            <!-- <div class="column"> -->
+            <img height="250px" style="border-radius: 2rem; box-shadow: 0 0 0.3em rgba(25, 23, 23, 0.381);"
+                src="./assets/img/Logo/Logo.png" alt="">
             <p>
                 Formed recently in 2018 in the town of Mansfield, Nottinghamshire, Rock’n’Rollin Bike Club is a
                 cycling club with great enthusiasm for every part of cycling; from road to downhill cycling. We
@@ -89,10 +99,18 @@
                 <a href="pages/bikes/gravel.html">Gravel</a>
 
             </div>
-        </div>
+            <h2>Click a button below to discover a few recommended places to bike</h2>
+            <div class="buttons">
+                <a href="pages/places/place1.html">Place 1</a>
+                <a href="pages/places/place2.html">Place 2</a>
 
+            </div>
+
+            <!-- </div> -->
+
+        </div>
     </section>
-    <script src="./js/returnToHomePage.js"></script>
+    <a href="https://unsplash.com/photos/a-landscape-with-trees-and-grass-68Ln0Cj84QE">Link to the background image</a>
     <script src="./js/mobileNav.js"></script>
 </body>
 

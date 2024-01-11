@@ -1,0 +1,263 @@
+Navigation Tests and Expected Results
+
+Test Home button on Home Page
+Click Home button on Home Page, page refreshes to the Home page
+
+Test Hardtail button on Home Page
+Click Hardtail button on Home Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Home Page
+Click Full Suspension button on Home Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Home Page
+Click Gravel button on Home Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Home Page
+Click Nutrition Advice button on Home Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Home Page
+Click Skills Development button on Home Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Home Page
+Click Place 1 button on Home Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Home Page
+Click Place 2 button on Home Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Home Page
+Click Contact Us button on Home Page, page refreshes to the Contact Us page
+
+
+Test Home button on Hardtail Page
+Click Home button on Hardtail Page, page refreshes to the Home page
+
+Test Hardtail button on Hardtail Page
+Click Hardtail button on Hardtail Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Hardtail Page
+Click Full Suspension button on Hardtail Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Hardtail Page
+Click Gravel button on Hardtail Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Hardtail Page
+Click Nutrition Advice button on Hardtail Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Hardtail Page
+Click Skills Development button on Hardtail Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Hardtail Page
+Click Place 1 button on Hardtail Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Hardtail Page
+Click Place 2 button on Hardtail Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Hardtail Page
+Click Contact Us button on Hardtail Page, page refreshes to the Contact Us page
+
+
+Test Home button on Full Suspension Page
+Click Home button on Full Suspension Page, page refreshes to the Home page
+
+Test Hardtail button on Full Suspension Page
+Click Hardtail button on Full Suspension Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Full Suspension Page
+Click Full Suspension button on Full Suspension Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Full Suspension Page
+Click Gravel button on Full Suspension Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Full Suspension Page
+Click Nutrition Advice button on Full Suspension Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Full Suspension Page
+Click Skills Development button on Full Suspension Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Full Suspension Page
+Click Place 1 button on Full Suspension Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Full Suspension Page
+Click Place 2 button on Full Suspension Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Full Suspension Page
+Click Contact Us button on Full Suspension Page, page refreshes to the Contact Us page
+
+
+Test Home button on Gravel Page
+Click Home button on Gravel Page, page refreshes to the Home page
+
+Test Hardtail button on Gravel Page
+Click Hardtail button on Gravel Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Gravel Page
+Click Full Suspension button on Gravel Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Gravel Page
+Click Gravel button on Gravel Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Gravel Page
+Click Nutrition Advice button on Gravel Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Gravel Page
+Click Skills Development button on Gravel Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Gravel Page
+Click Place 1 button on Gravel Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Gravel Page
+Click Place 2 button on Gravel Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Gravel Page
+Click Contact Us button on Gravel Page, page refreshes to the Contact Us page
+
+
+Test Home button on Nutrition Advice Page
+Click Home button on Nutrition Advice Page, page refreshes to the Home page
+
+Test Hardtail button on Nutrition Advice Page
+Click Hardtail button on Nutrition Advice Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Nutrition Advice Page
+Click Full Suspension button on Nutrition Advice Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Nutrition Advice Page
+Click Gravel button on Nutrition Advice Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Nutrition Advice Page
+Click Nutrition Advice button on Nutrition Advice Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Nutrition Advice Page
+Click Skills Development button on Nutrition Advice Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Nutrition Advice Page
+Click Place 1 button on Nutrition Advice Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Nutrition Advice Page
+Click Place 2 button on Nutrition Advice Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Nutrition Advice Page
+Click Contact Us button on Nutrition Advice Page, page refreshes to the Contact Us page
+
+
+Test Home button on Skills Development Page
+Click Home button on Skills Development Page, page refreshes to the Home page
+
+Test Hardtail button on Skills Development Page
+Click Hardtail button on Skills Development Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Skills Development Page
+Click Full Suspension button on Skills Development Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Skills Development Page
+Click Gravel button on Skills Development Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Skills Development Page
+Click Nutrition Advice button on Skills Development Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Skills Development Page
+Click Skills Development button on Skills Development Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Skills Development Page
+Click Place 1 button on Skills Development Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Skills Development Page
+Click Place 2 button on Skills Development Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Skills Development Page
+Click Contact Us button on Skills Development Page, page refreshes to the Contact Us page
+
+
+Test Home button on Place 1 Page
+Click Home button on Place 1 Page, page refreshes to the Home page
+
+Test Hardtail button on Place 1 Page
+Click Hardtail button on Place 1 Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Place 1 Page
+Click Full Suspension button on Place 1 Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Place 1 Page
+Click Gravel button on Place 1 Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Place 1 Page
+Click Nutrition Advice button on Place 1 Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Place 1 Page
+Click Skills Development button on Place 1 Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Place 1 Page
+Click Place 1 button on Place 1 Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Place 1 Page
+Click Place 2 button on Place 1 Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Place 1 Page
+Click Contact Us button on Place 1 Page, page refreshes to the Contact Us page
+
+
+Test Home button on Place 2 Page
+Click Home button on Place 2 Page, page refreshes to the Home page
+
+Test Hardtail button on Place 2 Page
+Click Hardtail button on Place 2 Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Place 2 Page
+Click Full Suspension button on Place 2 Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Place 2 Page
+Click Gravel button on Place 2 Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Place 2 Page
+Click Nutrition Advice button on Place 2 Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Place 2 Page
+Click Skills Development button on Place 2 Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Place 2 Page
+Click Place 1 button on Place 2 Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Place 2 Page
+Click Place 2 button on Place 2 Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Place 2 Page
+Click Contact Us button on Place 2 Page, page refreshes to the Contact Us page
+
+
+Test Home button on Contact Us Page
+Click Home button on Contact Us Page, page refreshes to the Home page
+
+Test Hardtail button on Contact Us Page
+Click Hardtail button on Contact Us Page, page refreshes to the Hardtail page
+
+Test Full Suspension button on Contact Us Page
+Click Full Suspension button on Contact Us Page, page refreshes to the Full Suspension page
+
+Test Gravel button on Contact Us Page
+Click Gravel button on Contact Us Page, page refreshes to the Gravel page
+
+Test Nutrition Advice button on Contact Us Page
+Click Nutrition Advice button on Contact Us Page, page refreshes to the Nutrition Advice page
+
+Test Skills Development button on Contact Us Page
+Click Skills Development button on Contact Us Page, page refreshes to the Skills Development page
+
+Test Place 1 button on Contact Us Page
+Click Place 1 button on Contact Us Page, page refreshes to the Place 1 page
+
+Test Place 2 button on Contact Us Page
+Click Place 2 button on Contact Us Page, page refreshes to the Place 2 page
+
+Test Contact Us button on Contact Us Page
+Click Contact Us button on Contact Us Page, page refreshes to the Contact Us page
+
+
+Device Tests
+
+Test website usability on a Desktop device
+Test website usability on a Mobile device
+
+Browser Tests
+
+Test website usability on the Edge browser
+Test website usability on the Firefox browser
