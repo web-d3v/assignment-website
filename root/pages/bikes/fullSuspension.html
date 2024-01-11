@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Suspension Bike - Rock'n'Rollin</title>
-    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/layout.css">
     <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/globals.css">
     <link rel="stylesheet" href="../../css/bikePages.css">
     <link rel="stylesheet" href="../../css/carousel.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon.ico">
 
     <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
 </head>
@@ -18,18 +18,22 @@
 <body>
     <header>
         <section>
-            <img class="goToHome" src="" style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            <a href="../../index.html">
+                <img src="../../assets/img/Logo/Logo_just_bike.png"
+                    style="border-radius: 300px; height: 102px; width: 99px;" alt="" srcset="">
+            </a>
             <a id="mobileNavOpen"><i class="fas fa-bars"></i></a>
         </section>
-
     </header>
     <!--
         Navigation
     -->
     <nav>
         <section>
-            <img class="goToHome" style="height: 3rem;" src="../../assets/img/logo_just_text.png" alt="">
-            <a class="goToHome">Home</a>
+            <a href="../../index.html">
+                <img style="height: 3rem;" src="../../assets/img/Logo/logo_just_text.png" alt="">
+            </a>
+            <a href="../../index.html">Home</a>
             <div class="dropdown">
                 <a class="active">Bikes <i class="fas fa-caret-down"></i></a>
                 <div class="dropdownItems">
@@ -53,14 +57,13 @@
     </nav>
 
     <div class="rows">
-
         <div class="row">
             <h1>Full Suspension Bikes</h1>
         </div>
         <div class="row">
             <div class="column">
                 <h2>An Introduction to Full Suspension Bikes</h2>
-                <p>Full suspension bikes, also known as dual suspension or mountain bikes with rear suspension, are
+                <p class="bottomBorder">Full suspension bikes, also known as dual suspension or mountain bikes with rear suspension, are
                     specialized bicycles designed to enhance off-road riding experiences. Unlike their rigid or hardtail
                     counterparts, full suspension bikes feature a front suspension fork and a rear shock absorber,
                     creating a system that absorbs impacts and vibrations from uneven terrain. This dual suspension
@@ -72,15 +75,27 @@
                 </p>
             </div>
             <div class="carousel">
-                <div class="carouselImages">
-                    <img class="selected" src="../../assets/img/Full Suspension/Vitus Sommet 29 CR.jpg" alt="">
-                    <img src="../../assets/img/Full Suspension/Vitus Dominer Downhill.jpg" alt="">
-                    <img src="../../assets/img/Full Suspension/Cube Stereo 150 C68 TM 29.jpg" alt="">
+                <h3 id="carouselItemTitle">
+                    Empty Title
+                </h3>
+                <div class="carouselItems">
+                    <img class="selected" data-title="Vitus Sommet 29 CR"
+                        src="../../assets/img/Full Suspension/Vitus Sommet 29 CR.png" alt="">
+                    <img data-title="Nukeproof Reactor 275"
+                        src="../../assets/img/Full Suspension/Nukeproof Reactor 275.png" alt="">
+                    <img data-title="Cube Stereo 150 C68 TM 29"
+                        src="../../assets/img/Full Suspension/Cube Stereo 150 C68 TM 29.png" alt="">
+					<img data-title="Vitus Dominer Downhill"
+                        src="../../assets/img/Full Suspension/Vitus Dominer Downhill.png" alt="">
+					<img data-title="YT Izzo Core 4"
+                        src="../../assets/img/Full Suspension/YT Izzo Core 4.png" alt="">
+					<img data-title="YT Jeffsy Blaze 29"
+                        src="../../assets/img/Full Suspension/YT Jeffsy Blaze 29.png" alt="">
                 </div>
                 <div class="carouselControls">
-                    <a id="previousImage"><i class="fas fa-chevron-left"></i></a>
-                    <p>1 / 3</p>
-                    <a id="nextImage"><i class="fas fa-chevron-right"></i></a>
+                    <a id="previousItem"><i class="fas fa-chevron-left"></i></a>
+                    <p>x / x</p>
+                    <a id="nextItem"><i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
 
@@ -89,7 +104,7 @@
         <div class="row">
             <div class="column">
                 <h2>Recommended Apparel</h2>
-                <p>When it comes to selecting apparel for full suspension bikes, riders prioritize comfort, protection,
+                <p class="bottomBorder">When it comes to selecting apparel for full suspension bikes, riders prioritize comfort, protection,
                     and flexibility. A well-ventilated and moisture-wicking cycling jersey is essential, as it helps
                     regulate body temperature during intense rides. Paired with padded cycling shorts or bibs, it
                     ensures comfort on the saddle during extended periods. Full-fingered gloves provide grip, reduce
@@ -106,12 +121,20 @@
                 alt="">
         </div>
         <div class="row">
-            <div class="column">
+            <div class="rows">
                 <h2>Recommended Videos</h2>
-                <div class="row alignICenter">
+                <div class="column">
                     <p>Global Mountain Bike Network</p>
-                    <a href="https://youtu.be/WHwKB9aR_bU?si=Ke5bhbi98jXsxgGw">A guide to buying Full Suspension
-                        bikes</a>
+                    <div class="column">
+                        <a href="https://youtu.be/WHwKB9aR_bU?si=Ke5bhbi98jXsxgGw">A guide to buying Full Suspension
+                            bikes</a>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/WHwKB9aR_bU?si=tlZoTltPn1ablOjh"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+
+                    </div>
                 </div>
                 <!--
 <iframe src="https://www.youtube.com/embed/WHwKB9aR_bU"
@@ -120,7 +143,7 @@
                     allowfullscreen></iframe>
                 -->
 
-                <div class="row alignICenter">
+                <div class="column">
                     <p>Global Mountain Bike Network</p>
                     <a href="https://youtu.be/GUQ9hfXoE7w?si=O5vKVda_K4U6opw1">A guide to buying Full Suspension
                         bikes</a>
@@ -133,7 +156,6 @@
     </div>
 
     <script src="../../js/mobileNav.js"></script>
-    <script src="../../js/returnToHomePage.js"></script>
     <script src="../../js/carousel.js"></script>
 </body>
 

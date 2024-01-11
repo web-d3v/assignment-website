@@ -3,28 +3,40 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-.carouselImages {
+.carouselItems {
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
+    box-shadow: 0 0rem 2rem 0.1rem rgba(0, 0, 0, 0.322);
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 100%;
+
 }
 
-.carouselImages img {
-    display: none;
-}
-
-.carouselImages img.selected {
+.carouselItems img {
     display: block;
-}
-
-/* White background removal from JPG / images */
-.carouselImages img {
+    object-fit: contain;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
-    mix-blend-mode: multiply;
+    width: 0;
+    height: 25rem;
+    transition: width 350ms ease-in-out;
+    
+}
+
+.carouselItems img.selected {
+    display: block;
+    width: 100%
+
+}
+
+#carouselItemTitle {
+    font-size: 1.8rem;
+    padding: 0 !important;
 }
 
 .carouselControls {
@@ -35,16 +47,17 @@
     width: 50%;
 }
 
+.carouselControls p {
+    font-weight: bold;
+}
+
 .carouselControls a:hover {
     cursor: pointer;
     background: var(--accent2-rgba-07);
 }
+
 .carouselControls a {
     padding: 0.4em;
     border-radius: 1em;
+
 }
-
-
-
-
-

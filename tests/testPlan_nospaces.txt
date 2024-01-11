@@ -1,0 +1,260 @@
+Navigation Tests
+
+Test redirect to Home when Home button is left clicked on Home Page
+Test redirect to Hardtail when Hardtail button is left clicked on Home Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Home Page
+Test redirect to Gravel when Gravel button is left clicked on Home Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Home Page
+Test redirect to Skills Development when Skills Development button is left clicked on Home Page
+Test redirect to Place 1 when Place 1 button is left clicked on Home Page
+Test redirect to Place 2 when Place 2 button is left clicked on Home Page
+Test redirect to Contact Us when Contact Us button is left clicked on Home Page
+Test redirect to Home when Home button is left clicked on Hardtail Page
+Test redirect to Hardtail when Hardtail button is left clicked on Hardtail Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Hardtail Page
+Test redirect to Gravel when Gravel button is left clicked on Hardtail Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Hardtail Page
+Test redirect to Skills Development when Skills Development button is left clicked on Hardtail Page
+Test redirect to Place 1 when Place 1 button is left clicked on Hardtail Page
+Test redirect to Place 2 when Place 2 button is left clicked on Hardtail Page
+Test redirect to Contact Us when Contact Us button is left clicked on Hardtail Page
+Test redirect to Home when Home button is left clicked on Full Suspension Page
+Test redirect to Hardtail when Hardtail button is left clicked on Full Suspension Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Full Suspension Page
+Test redirect to Gravel when Gravel button is left clicked on Full Suspension Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Full Suspension Page
+Test redirect to Skills Development when Skills Development button is left clicked on Full Suspension Page
+Test redirect to Place 1 when Place 1 button is left clicked on Full Suspension Page
+Test redirect to Place 2 when Place 2 button is left clicked on Full Suspension Page
+Test redirect to Contact Us when Contact Us button is left clicked on Full Suspension Page
+Test redirect to Home when Home button is left clicked on Gravel Page
+Test redirect to Hardtail when Hardtail button is left clicked on Gravel Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Gravel Page
+Test redirect to Gravel when Gravel button is left clicked on Gravel Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Gravel Page
+Test redirect to Skills Development when Skills Development button is left clicked on Gravel Page
+Test redirect to Place 1 when Place 1 button is left clicked on Gravel Page
+Test redirect to Place 2 when Place 2 button is left clicked on Gravel Page
+Test redirect to Contact Us when Contact Us button is left clicked on Gravel Page
+Test redirect to Home when Home button is left clicked on Nutrition Advice Page
+Test redirect to Hardtail when Hardtail button is left clicked on Nutrition Advice Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Nutrition Advice Page
+Test redirect to Gravel when Gravel button is left clicked on Nutrition Advice Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Nutrition Advice Page
+Test redirect to Skills Development when Skills Development button is left clicked on Nutrition Advice Page
+Test redirect to Place 1 when Place 1 button is left clicked on Nutrition Advice Page
+Test redirect to Place 2 when Place 2 button is left clicked on Nutrition Advice Page
+Test redirect to Contact Us when Contact Us button is left clicked on Nutrition Advice Page
+Test redirect to Home when Home button is left clicked on Skills Development Page
+Test redirect to Hardtail when Hardtail button is left clicked on Skills Development Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Skills Development Page
+Test redirect to Gravel when Gravel button is left clicked on Skills Development Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Skills Development Page
+Test redirect to Skills Development when Skills Development button is left clicked on Skills Development Page
+Test redirect to Place 1 when Place 1 button is left clicked on Skills Development Page
+Test redirect to Place 2 when Place 2 button is left clicked on Skills Development Page
+Test redirect to Contact Us when Contact Us button is left clicked on Skills Development Page
+Test redirect to Home when Home button is left clicked on Place 1 Page
+Test redirect to Hardtail when Hardtail button is left clicked on Place 1 Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Place 1 Page
+Test redirect to Gravel when Gravel button is left clicked on Place 1 Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Place 1 Page
+Test redirect to Skills Development when Skills Development button is left clicked on Place 1 Page
+Test redirect to Place 1 when Place 1 button is left clicked on Place 1 Page
+Test redirect to Place 2 when Place 2 button is left clicked on Place 1 Page
+Test redirect to Contact Us when Contact Us button is left clicked on Place 1 Page
+Test redirect to Home when Home button is left clicked on Place 2 Page
+Test redirect to Hardtail when Hardtail button is left clicked on Place 2 Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Place 2 Page
+Test redirect to Gravel when Gravel button is left clicked on Place 2 Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Place 2 Page
+Test redirect to Skills Development when Skills Development button is left clicked on Place 2 Page
+Test redirect to Place 1 when Place 1 button is left clicked on Place 2 Page
+Test redirect to Place 2 when Place 2 button is left clicked on Place 2 Page
+Test redirect to Contact Us when Contact Us button is left clicked on Place 2 Page
+Test redirect to Home when Home button is left clicked on Contact Us Page
+Test redirect to Hardtail when Hardtail button is left clicked on Contact Us Page
+Test redirect to Full Suspension when Full Suspension button is left clicked on Contact Us Page
+Test redirect to Gravel when Gravel button is left clicked on Contact Us Page
+Test redirect to Nutrition Advice when Nutrition Advice button is left clicked on Contact Us Page
+Test redirect to Skills Development when Skills Development button is left clicked on Contact Us Page
+Test redirect to Place 1 when Place 1 button is left clicked on Contact Us Page
+Test redirect to Place 2 when Place 2 button is left clicked on Contact Us Page
+Test redirect to Contact Us when Contact Us button is left clicked on Contact Us Page
+
+
+Left Click on the Home button on Home Page
+Left Click on the Hardtail button on Home Page
+Left Click on the Full Suspension button on Home Page
+Left Click on the Gravel button on Home Page
+Left Click on the Nutrition Advice button on Home Page
+Left Click on the Skills Development button on Home Page
+Left Click on the Place 1 button on Home Page
+Left Click on the Place 2 button on Home Page
+Left Click on the Contact Us button on Home Page
+Left Click on the Home button on Hardtail Page
+Left Click on the Hardtail button on Hardtail Page
+Left Click on the Full Suspension button on Hardtail Page
+Left Click on the Gravel button on Hardtail Page
+Left Click on the Nutrition Advice button on Hardtail Page
+Left Click on the Skills Development button on Hardtail Page
+Left Click on the Place 1 button on Hardtail Page
+Left Click on the Place 2 button on Hardtail Page
+Left Click on the Contact Us button on Hardtail Page
+Left Click on the Home button on Full Suspension Page
+Left Click on the Hardtail button on Full Suspension Page
+Left Click on the Full Suspension button on Full Suspension Page
+Left Click on the Gravel button on Full Suspension Page
+Left Click on the Nutrition Advice button on Full Suspension Page
+Left Click on the Skills Development button on Full Suspension Page
+Left Click on the Place 1 button on Full Suspension Page
+Left Click on the Place 2 button on Full Suspension Page
+Left Click on the Contact Us button on Full Suspension Page
+Left Click on the Home button on Gravel Page
+Left Click on the Hardtail button on Gravel Page
+Left Click on the Full Suspension button on Gravel Page
+Left Click on the Gravel button on Gravel Page
+Left Click on the Nutrition Advice button on Gravel Page
+Left Click on the Skills Development button on Gravel Page
+Left Click on the Place 1 button on Gravel Page
+Left Click on the Place 2 button on Gravel Page
+Left Click on the Contact Us button on Gravel Page
+Left Click on the Home button on Nutrition Advice Page
+Left Click on the Hardtail button on Nutrition Advice Page
+Left Click on the Full Suspension button on Nutrition Advice Page
+Left Click on the Gravel button on Nutrition Advice Page
+Left Click on the Nutrition Advice button on Nutrition Advice Page
+Left Click on the Skills Development button on Nutrition Advice Page
+Left Click on the Place 1 button on Nutrition Advice Page
+Left Click on the Place 2 button on Nutrition Advice Page
+Left Click on the Contact Us button on Nutrition Advice Page
+Left Click on the Home button on Skills Development Page
+Left Click on the Hardtail button on Skills Development Page
+Left Click on the Full Suspension button on Skills Development Page
+Left Click on the Gravel button on Skills Development Page
+Left Click on the Nutrition Advice button on Skills Development Page
+Left Click on the Skills Development button on Skills Development Page
+Left Click on the Place 1 button on Skills Development Page
+Left Click on the Place 2 button on Skills Development Page
+Left Click on the Contact Us button on Skills Development Page
+Left Click on the Home button on Place 1 Page
+Left Click on the Hardtail button on Place 1 Page
+Left Click on the Full Suspension button on Place 1 Page
+Left Click on the Gravel button on Place 1 Page
+Left Click on the Nutrition Advice button on Place 1 Page
+Left Click on the Skills Development button on Place 1 Page
+Left Click on the Place 1 button on Place 1 Page
+Left Click on the Place 2 button on Place 1 Page
+Left Click on the Contact Us button on Place 1 Page
+Left Click on the Home button on Place 2 Page
+Left Click on the Hardtail button on Place 2 Page
+Left Click on the Full Suspension button on Place 2 Page
+Left Click on the Gravel button on Place 2 Page
+Left Click on the Nutrition Advice button on Place 2 Page
+Left Click on the Skills Development button on Place 2 Page
+Left Click on the Place 1 button on Place 2 Page
+Left Click on the Place 2 button on Place 2 Page
+Left Click on the Contact Us button on Place 2 Page
+Left Click on the Home button on Contact Us Page
+Left Click on the Hardtail button on Contact Us Page
+Left Click on the Full Suspension button on Contact Us Page
+Left Click on the Gravel button on Contact Us Page
+Left Click on the Nutrition Advice button on Contact Us Page
+Left Click on the Skills Development button on Contact Us Page
+Left Click on the Place 1 button on Contact Us Page
+Left Click on the Place 2 button on Contact Us Page
+Left Click on the Contact Us button on Contact Us Page
+
+
+Expected Results
+
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Page refreshes onto the Home page
+Page refreshes onto the Hardtail page
+Page refreshes onto the Full Suspension page
+Page refreshes onto the Gravel page
+Page refreshes onto the Nutrition Advice page
+Page refreshes onto the Skills Development page
+Page refreshes onto the Place 1 page
+Page refreshes onto the Place 2 page
+Page refreshes onto the Contact Us page
+Device Tests
+
+Test website usability on a Desktop device
+Test website usability on a Mobile device
+
+Browser Tests
+
+Test website usability on the Edge browser
+Test website usability on the Firefox browser
