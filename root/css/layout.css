@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
+html {
+    background-image: url("../assets/img/background_image.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(75%);
 }
 
 body {
@@ -11,10 +13,19 @@ body {
     overflow-y: auto !important;
     font-family: Arial, sans-serif;
     font-size: 1.3rem;
-    margin: 0 auto;
-    background-size: cover;
-    background-image: url("../assets/img/background_image.png");
     color: white;
+    margin: 0 auto;
+    width: 100vw;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Dosis", sans-serif;
 }
 
 .columns {
@@ -25,8 +36,8 @@ body {
     align-items: center;
 }
 
-.columns .column {
-    margin: 2rem;
+.column {
+    margin: 0.8rem;
     padding: 2rem;
     height: 50%;
     width: 85%;
@@ -47,9 +58,50 @@ body {
     gap: 0.3rem
 }
 
-/* .column, 
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: auto;
+    justify-content: center;
+}
+
+.column,
 .row {
     background-color: var(--section-bg);
     width: 85%;
     display: flex;
-} */
+    align-items: center;
+}
+
+@media screen and (max-width: 60rem) {
+    .columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .columns .column {
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .columns .column>* {
+        text-align: center;
+    }
+
+    .rows {
+        align-items: center;
+    }
+
+    .rows .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 75%;
+    }
+}
