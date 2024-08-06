@@ -24,12 +24,10 @@ nav section {
     flex-direction: row;
 }
 
-nav section img {
-    height: auto;
-}
-
 nav section>a>img {
+    height: auto;
     border-radius: 0.35rem;
+    width: 10rem;
 }
 
 nav section a:not(:has(img)),
@@ -93,7 +91,11 @@ nav section .dropdown:has(:hover) .dropdownItems {
     flex-direction: column;
 }
 
-@media screen and (max-width: 67.5rem) {
+nav section a:not(#mobileNavClose) {
+    font-size: 1.2rem !important;
+}
+
+@media screen and (max-width: 70rem) {
     nav {
         display: flex;
         height: 0;
@@ -190,5 +192,8 @@ nav section .dropdown:has(:hover) .dropdownItems {
     header section a#mobileNavOpen.active {
         background: var(--accent1-rgba-07);
         box-shadow: 0 0 1em rgba(25, 23, 23, 0.381)
+    }
+    nav section a:not(#mobileNavClose) {
+        font-size: 1.4rem !important;
     }
 }

@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock’n’Rollin</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/globals.css">
     <link rel="stylesheet" href="./css/layout.css">
-
+    <link rel="stylesheet" href="./css/globals.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./assets/icons/all.css">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.ico">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
     <!--Icons-->
-    <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/f64e12ef7e.js" crossorigin="anonymous"></script> -->
+    <script defer src="./js/mobileNav.js"></script>
 </head>
 
 <body>
@@ -38,7 +39,7 @@
             <a href="index.html">
                 <img src="./assets/img/Logo/logo_just_text.png" alt="">
             </a>
-            <a class="active">Home</a>
+            <a href="index.html" class="active">Home</a>
             <div class="dropdown">
                 <a>Bikes <i class="fas fa-caret-down"></i></a>
                 <div class="dropdownItems">
@@ -60,7 +61,7 @@
             <a id="mobileNavClose"><i class="fa-solid fa-xmark"></i></a>
         </section>
     </nav>
-
+    <!-- <div class="bg"> -->
     <section class="columns">
         <div class="column">
             <h1>About Us</h1>
@@ -69,49 +70,51 @@
             <!-- <div class="column"> -->
             <img height="250px" style="border-radius: 2rem; box-shadow: 0 0 0.3em rgba(25, 23, 23, 0.381);"
                 src="./assets/img/Logo/Logo.png" alt="">
-            <p>
-                Formed recently in 2018 in the town of Mansfield, Nottinghamshire, Rock’n’Rollin Bike Club is a
-                cycling club with great enthusiasm for every part of cycling; from road to downhill cycling. We
-                started out as a small band of friends looking for adventure and fitness, meeting here and there
-                around the East Midlands, and quickly made friends in all areas of cycling, pushing each other’s
-                limits in a race to find thrills.
+            <!-- <div style="background-color: var(--dsection-bg); border-radius: 1em; padding: 2rem;"> -->
+                <p>
+                    Formed recently in 2018 in the town of Mansfield, Nottinghamshire, Rock’n’Rollin Bike Club is a
+                    cycling club with great enthusiasm for every part of cycling; from road to downhill cycling. We
+                    started out as a small band of friends looking for adventure and fitness, meeting here and there
+                    around the East Midlands, and quickly made friends in all areas of cycling, pushing each other’s
+                    limits in a race to find thrills.
 
-                We strive to be the benchmark that other clubs want to emulate! After 3 years, the energy for
-                cycling in the club has continued to excel and our ethos of the club is simple – to be a home for
-                similar individuals, who want to ride their bikes and have a laugh while doing it.
+                    We strive to be the benchmark that other clubs want to emulate! After 3 years, the energy for
+                    cycling in the club has continued to excel and our ethos of the club is simple – to be a home for
+                    similar individuals, who want to ride their bikes and have a laugh while doing it.
 
-                As a still very active cycling club, we have lots to offer for any newcomer willing to take on the
-                cycling world. We have some of the most excellent routes in our area and use applications such as
-                Strava, AllTrails and Komoot to helps us guide anyone in the right direction they want to take with
-                their cycling.
+                    As a still very active cycling club, we have lots to offer for any newcomer willing to take on the
+                    cycling world. We have some of the most excellent routes in our area and use applications such as
+                    Strava, AllTrails and Komoot to helps us guide anyone in the right direction they want to take with
+                    their cycling.
 
-                We're not all about the newcomers, some of the experienced riders like to challenge themselves
-                mentally and physically. If you're setting up for a big event and you need the determination and
-                schedule. We could provide that with scheduled fast-paced club rides.
+                    We're not all about the newcomers, some of the experienced riders like to challenge themselves
+                    mentally and physically. If you're setting up for a big event and you need the determination and
+                    schedule. We could provide that with scheduled fast-paced club rides.
 
-                If any of the above is what you're looking for in a club you not be disappointed there's enough
-                experience and members in our club to cater for everyone newbie to racer.
-            </p>
-            <h2>Click a button below to learn more about different types of bikes</h2>
+                    If any of the above is what you're looking for in a club you not be disappointed there's enough
+                    experience and members in our club to cater for everyone newbie to racer.
+                </p>
+            <!-- </div> -->
+        </div>
+        <div class="column">
+            <h2>See the different types of bikes</h2>
             <div class="buttons">
                 <a href="pages/bikes/hardtail.html">Hardtail</a>
                 <a href="pages/bikes/fullSuspension.html">Full Suspension</a>
                 <a href="pages/bikes/gravel.html">Gravel</a>
 
             </div>
-            <h2>Click a button below to discover a few recommended places to bike</h2>
+            <h2>See our recommended routes and places</h2>
             <div class="buttons">
                 <a href="pages/places/place1.html">Place 1</a>
                 <a href="pages/places/place2.html">Place 2</a>
 
             </div>
-
-            <!-- </div> -->
-
         </div>
     </section>
-    <a href="https://unsplash.com/photos/a-landscape-with-trees-and-grass-68Ln0Cj84QE">Link to the background image</a>
-    <script src="./js/mobileNav.js"></script>
+    <!-- </div>
+ -->
+
 </body>
 
 </html>

@@ -17,27 +17,69 @@
 
 }
 
-.carouselItems img {
+.carouselItems > *:not(iframe) {
+    transition: width 500ms ease-out;
+}
+
+.carouselItems > * {
+    
     display: block;
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.carouselItems iframe {
     width: 0;
     height: 25rem;
-    transition: width 350ms ease-in-out;
+}
+
+.carouselItems img {
+    width: 0;
+    height: 25rem;
+}
+
+.carouselItems .selected {
+    width: 100%;
     
 }
 
-.carouselItems img.selected {
-    display: block;
-    width: 100%
-
-}
-
-#carouselItemTitle {
+.carouselItemTitle {
     font-size: 1.8rem;
     padding: 0 !important;
 }
+
+.carouselItemLinkHolder {
+    padding: 1rem;
+}
+
+.carouselItemLink {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+}
+
+.carouselItemLink::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--accent2-rgba-07);
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 500ms ease;
+}
+
+.carouselItemLink:hover::before {
+    transform: scaleX(1);
+}
+
+
+
 
 .carouselControls {
     display: flex;
